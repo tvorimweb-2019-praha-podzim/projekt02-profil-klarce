@@ -25,42 +25,36 @@ body {
   background-color: #bdc3c7;
   width           : 250px;
   padding         : 0;
-  margin          : 0;
+  margin          : 40px 50px;
 }
 
 .profil {
-  background-color: #bdc3c7;
-  width           : 250px;
-  padding         : 0;
-  margin          : 0;
+  background-color: #31363b;
+  color           : #bdc3c7;
+  font-size       : 14px;
+  box-shadow      : 2px 2px 4px 2px rgba(0, 0, 0, .4);
+  overflow        : auto;
 }
 
-.hlavicka {
-  padding         : 0;
-  margin          : 0;
-  background-color: #31363b;
+.jmeno {
+  font-size: 25px;
+  color    : white;
+}
 
+.foto {
+  width: 250px;
 }
 
 .logo {
   border-radius   : 50%;
   background-color: #b92e81;
   position        : absolute;
-  left            : 170px;
-  top             : 140px;
+  left            : 220px;
+  top             : 180px;
 }
-
-.foto {
-  width  : 250px;
-  margin : 0;
-  padding: 0;
-}
-
-
 
 .obsah {
   width           : 250px;
-  font-family     : 'Source Sans Pro', sans-serif;
   font-size       : 13px;
   color           : white;
   text-align      : left;
@@ -69,34 +63,51 @@ body {
   margin          : 0;
 }
 
-.jmeno {
+h1, ul {
   font-family: 'Montserrat', sans-serif;
-  font-size  : 25px;
 }
 
-.odkazy {
-  width           : 250px;
-  margin          : 0;
-  padding         : 0;
-  display         : inline-block;
-  background-color: #31363b;
-  text-align      : center;
+p {
+  font-family: 'Source Sans Pro', sans-serif;
 }
-
-.odkazy li {
-  display: inline-block;
-  }
 
 .odkazy a {
-  font-family    : 'Montserrat', sans-serif;
   font-size      : 10px;
-  color          : white;
+  font-weight    : bold;
+  color          : #bdc3c7;
   text-decoration: none;
+  text-align     : center;
   display        : inline-block;
-  padding        : 10px 50px;
-  margin: 1px;
-  outline        : 1px solid #3f464d;
-    }
+}
+
+ul {
+  list-style-type: none;
+  padding        : 0;
+}
+
+li.portfolio a {
+  display   : inline-block;
+  padding   : 8px 10px 8px 10px;
+  width     : 100%;
+  border-top: 1px solid #3f464d;
+}
+
+li.facebook a {
+  display     : inline-block;
+  padding     : 8px 10px 8px 10px;
+  width       : 50%;
+  border-top  : 1px solid #3f464d;
+  border-right: 1px solid #3f464d;
+  float       : left;
+}
+
+li.twitter a {
+  display   : inline-block;
+  padding   : 8px 10px 8px 10px;
+  width     : 50%;
+  border-top: 1px solid #3f464d;
+  float     : right;
+}
 
 .portfolio a:hover {
   background-color: #e74c3c;
@@ -109,4 +120,3 @@ body {
 .twitter a:hover {
   background-color: #1da1f2;
 }
-
